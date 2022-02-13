@@ -7,9 +7,6 @@ public class L2N4 {
     }
     static void printWord(String x, int z){
         for (int p = 0; z > p; p++) {
-            if (p > z) {
-                break;
-            }
             System.out.println( x );
         }
     }
